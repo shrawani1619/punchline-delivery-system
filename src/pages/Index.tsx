@@ -76,6 +76,16 @@ const Index = () => {
           <p className="text-xl text-white/90 drop-shadow">
             Get ready to laugh with our collection of hilarious jokes! 😄
           </p>
+          {/* Profile Link */}
+          <div className="mt-4">
+            <Button
+              onClick={() => window.location.href = '/profile'}
+              variant="outline"
+              className="bg-white/20 text-white border-2 border-white/30 hover:bg-white/30 backdrop-blur-sm"
+            >
+              👤 View Profile
+            </Button>
+          </div>
         </div>
 
         {/* Categories */}
